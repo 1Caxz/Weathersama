@@ -19,6 +19,7 @@
 		6F5EB6351F869D7800C0531F /* DailyForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5EB6341F869D7800C0531F /* DailyForecastModel.swift */; };
 		6F5EB63A1F86B68000C0531F /* ForecastListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5EB6391F86B68000C0531F /* ForecastListModel.swift */; };
 		6F5EB63C1F86BA1000C0531F /* DailyForecastListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5EB63B1F86BA1000C0531F /* DailyForecastListModel.swift */; };
+		6FA811801F8B0B2200A50778 /* WeathersamaTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 6F5EB5721F84BF6600C0531F /* WeathersamaTests.xctest */; };
 		6FCA55ED1F8AA09800A2B30C /* WeathersamaForGoogle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA55EC1F8AA09800A2B30C /* WeathersamaForGoogle.swift */; };
 		6FCA55EF1F8AA52B00A2B30C /* GoogleSearchLocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA55EE1F8AA52B00A2B30C /* GoogleSearchLocationModel.swift */; };
 /* End PBXBuildFile section */
@@ -283,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FA811801F8B0B2200A50778 /* WeathersamaTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

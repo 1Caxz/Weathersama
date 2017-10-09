@@ -4,6 +4,6 @@ platform :ios, '9.0'
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target ‘WeathersamaDemo’ do
-    pod 'Weathersama', :path => ‘~/documents/icaksama/Assets/Weathersama'
+target 'WeathersamaDemo' do
+    pod 'Weathersama', :path => '~/documents/icaksama/GIT/Weathersama/Weathersama'
 end

@@ -4,16 +4,16 @@ PODS:
     - Alamofire (~> 4.5)
 
 DEPENDENCIES:
-  - Weathersama (from `~/documents/icaksama/Assets/Weathersama`)
+  - Weathersama (from `~/documents/icaksama/GIT/Weathersama/Weathersama`)
 
 EXTERNAL SOURCES:
   Weathersama:
-    :path: ~/documents/icaksama/Assets/Weathersama
+    :path: ~/documents/icaksama/GIT/Weathersama/Weathersama
 
 SPEC CHECKSUMS:
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
-  Weathersama: 03d40fdda59cf4e295f04088cd5553d9df4ffd95
+  Weathersama: fd691525fff73e6e0c03d6c97933db71cf5ff19d
 
-PODFILE CHECKSUM: 8bef0ca82f88e7594cb9a96eafc8f775a42c193a
+PODFILE CHECKSUM: fc0364f61239e8923d038599ae65010bfd58625c
 
 COCOAPODS: 1.1.1

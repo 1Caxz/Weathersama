@@ -1,8 +1,7 @@
 {
   "name": "Weathersama",
   "platforms": {
-    "is": null,
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "summary": "Weathersama is instance library for access weather on openweathermap.org",
   "requires_arc": true,
@@ -25,6 +24,8 @@
       "~> 4.5"
     ]
   },
-  "source_files": "Weathersama/**/*.{swift}",
-  "resources": "Weathersama/**/*.{png,jpeg,jpg,storyboard,xib}"
+  "source_files": "Weathersama/**/*.{swift,h}",
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "4.0"
+  }
 }
