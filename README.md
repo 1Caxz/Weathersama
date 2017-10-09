@@ -3,13 +3,14 @@ Weathersama is instance library for access weather data on openweathermap.org.
 You can find clone apple weather app in WeatersamaDemo project.
 
 This is simple library with class model inside. You can make code short and faster. This library integrated with google geocode. So, its simple to find location and send to get weather data.
-
+<br><br>
 <div style="text-align: center;">
-<img align="left" width="250" src="https://github.com/icaksama/Weathersama/blob/master/ss1.jpeg">&nbsp;&nbsp;&nbsp;
-<img align="left" width="250" src="https://github.com/icaksama/Weathersama/blob/master/ss2.jpeg">&nbsp;&nbsp;&nbsp;
-<img align="left" width="250" src="https://github.com/icaksama/Weathersama/blob/master/ss3.jpeg">
+<img align="center" width="250" src="https://github.com/icaksama/Weathersama/blob/master/ss1.jpeg">&nbsp;&nbsp;&nbsp;
+<img align="center" width="250" src="https://github.com/icaksama/Weathersama/blob/master/ss2.jpeg">&nbsp;&nbsp;&nbsp;
+<img align="center" width="250" src="https://github.com/icaksama/Weathersama/blob/master/ss3.jpeg">
 <div>
 
+<br><br>
 How to Install in your project demo :
 1. Download the project
 2. Open WeathersamaDemo.xcworkspace
