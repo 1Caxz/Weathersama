@@ -1,0 +1,6 @@
+framework module Weathersama {
+  umbrella header "Weathersama-umbrella.h"
+
+  export *
+  module * { export * }
+}

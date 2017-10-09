@@ -1,0 +1,30 @@
+{
+  "name": "Weathersama",
+  "platforms": {
+    "is": null,
+    "ios": "8.0"
+  },
+  "summary": "Weathersama is instance library for access weather on openweathermap.org",
+  "requires_arc": true,
+  "version": "1.0",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "icaksama": "icaksama@gmail.com"
+  },
+  "homepage": "https://github.com/icaksama/Weathersama",
+  "source": {
+    "git": "https://github.com/icaksama/Weathersama.git",
+    "tag": "1.0"
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.5"
+    ]
+  },
+  "source_files": "Weathersama/**/*.{swift}",
+  "resources": "Weathersama/**/*.{png,jpeg,jpg,storyboard,xib}"
+}

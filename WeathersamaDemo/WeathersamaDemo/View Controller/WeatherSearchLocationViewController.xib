@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WeatherSearchLocationViewController" customModule="WeathersamaDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="btnCancel" destination="cBx-uU-GYL" id="RiU-pm-ygb"/>
+                <outlet property="searchBar" destination="bhP-da-HwJ" id="0Wo-Th-XsF"/>
+                <outlet property="tableView" destination="Ndm-hh-Rqy" id="tDS-aH-vtD"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3fL-XK-ykI">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+                    <subviews>
+                        <searchBar contentMode="redraw" barStyle="blackTranslucent" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="bhP-da-HwJ">
+                            <rect key="frame" x="7" y="56" width="304" height="56"/>
+                            <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="56" id="W6i-Yj-ywd"/>
+                            </constraints>
+                            <color key="barTintColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <scopeButtonTitles>
+                                <string>Title</string>
+                                <string>Title</string>
+                                <string>Title</string>
+                            </scopeButtonTitles>
+                        </searchBar>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter city, zip code, or airport location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Exc-dA-Jra">
+                            <rect key="frame" x="42" y="35" width="291" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="06y-5Z-2eI"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cBx-uU-GYL">
+                            <rect key="frame" x="311" y="69" width="56" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="54g-MC-LSP"/>
+                                <constraint firstAttribute="width" constant="56" id="Ebd-M1-DeU"/>
+                            </constraints>
+                            <state key="normal" title="Cancel">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnCancelOnTouchUp:" destination="-1" eventType="touchUpInside" id="lcK-rH-T5c"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="bhP-da-HwJ" firstAttribute="leading" secondItem="3fL-XK-ykI" secondAttribute="leading" constant="7" id="78J-VZ-MAy"/>
+                        <constraint firstItem="bhP-da-HwJ" firstAttribute="top" secondItem="Exc-dA-Jra" secondAttribute="bottom" id="7af-iw-FGB"/>
+                        <constraint firstAttribute="height" constant="120" id="Bf4-HA-evD"/>
+                        <constraint firstItem="cBx-uU-GYL" firstAttribute="top" secondItem="Exc-dA-Jra" secondAttribute="bottom" constant="13" id="Cdw-O6-zgO"/>
+                        <constraint firstAttribute="trailing" secondItem="Exc-dA-Jra" secondAttribute="trailing" constant="42" id="Dgu-y7-5M8"/>
+                        <constraint firstItem="Exc-dA-Jra" firstAttribute="top" secondItem="3fL-XK-ykI" secondAttribute="top" constant="35" id="HO8-Vv-2VH"/>
+                        <constraint firstAttribute="trailing" secondItem="cBx-uU-GYL" secondAttribute="trailing" constant="8" id="Hzu-t3-eIm"/>
+                        <constraint firstItem="Exc-dA-Jra" firstAttribute="leading" secondItem="3fL-XK-ykI" secondAttribute="leading" constant="42" id="StK-xF-lpL"/>
+                        <constraint firstAttribute="trailing" secondItem="bhP-da-HwJ" secondAttribute="trailing" constant="64" id="oIh-9A-gGU"/>
+                    </constraints>
+                </view>
+                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uit-cY-fgy">
+                    <rect key="frame" x="0.0" y="120" width="375" height="547"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="UPp-bb-ao5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="547"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ndm-hh-Rqy">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="547"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <inset key="separatorInset" minX="45" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Ndm-hh-Rqy" secondAttribute="trailing" id="1ut-QY-p7c"/>
+                            <constraint firstItem="Ndm-hh-Rqy" firstAttribute="leading" secondItem="UPp-bb-ao5" secondAttribute="leading" id="IQO-cC-WPD"/>
+                            <constraint firstAttribute="bottom" secondItem="Ndm-hh-Rqy" secondAttribute="bottom" id="cbA-fH-e3M"/>
+                            <constraint firstItem="Ndm-hh-Rqy" firstAttribute="top" secondItem="UPp-bb-ao5" secondAttribute="top" id="pZc-C9-dZQ"/>
+                        </constraints>
+                    </view>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <blurEffect style="dark"/>
+                </visualEffectView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Uit-cY-fgy" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="1cE-4T-7sy"/>
+                <constraint firstItem="3fL-XK-ykI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Au1-A1-vTz"/>
+                <constraint firstItem="Uit-cY-fgy" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="WxO-bT-3wL"/>
+                <constraint firstItem="Uit-cY-fgy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ZMi-dC-AKA"/>
+                <constraint firstItem="3fL-XK-ykI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="bse-34-ag4"/>
+                <constraint firstItem="3fL-XK-ykI" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="duC-Wy-pso"/>
+                <constraint firstItem="Uit-cY-fgy" firstAttribute="top" secondItem="3fL-XK-ykI" secondAttribute="bottom" id="hWL-Mm-XMX"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="25.5" y="52.5"/>
+        </view>
+        <searchDisplayController id="TQg-ZJ-mmG"/>
+    </objects>
+</document>

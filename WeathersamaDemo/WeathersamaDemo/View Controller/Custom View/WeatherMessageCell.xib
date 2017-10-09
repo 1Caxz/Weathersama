@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="WeatherMessageCell" rowHeight="63" id="UES-m4-VmK" customClass="WeatherMessageCell" customModule="WeathersamaDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="63"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UES-m4-VmK" id="dNS-BS-jYp">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="62.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Af-DK-w8n">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="62"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today : Sunny today. It's currently 16, the high will be 26." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fTb-s2-T0f">
+                                <rect key="frame" x="16" y="8" width="343" height="46"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fTb-s2-T0f" firstAttribute="leading" secondItem="1Af-DK-w8n" secondAttribute="leading" constant="16" id="46b-Q6-szC"/>
+                            <constraint firstAttribute="trailing" secondItem="fTb-s2-T0f" secondAttribute="trailing" constant="16" id="Ueb-vv-63H"/>
+                            <constraint firstAttribute="bottom" secondItem="fTb-s2-T0f" secondAttribute="bottom" constant="8" id="YO2-b5-V1y"/>
+                            <constraint firstItem="fTb-s2-T0f" firstAttribute="top" secondItem="1Af-DK-w8n" secondAttribute="top" constant="8" id="zNU-WZ-0sS"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="1Af-DK-w8n" secondAttribute="bottom" id="2aM-yJ-2kA"/>
+                    <constraint firstItem="1Af-DK-w8n" firstAttribute="leading" secondItem="dNS-BS-jYp" secondAttribute="leading" id="4Fc-AE-XAq"/>
+                    <constraint firstAttribute="trailing" secondItem="1Af-DK-w8n" secondAttribute="trailing" id="QTW-be-Htc"/>
+                    <constraint firstItem="1Af-DK-w8n" firstAttribute="top" secondItem="dNS-BS-jYp" secondAttribute="top" id="noi-sX-Cfj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblMessage" destination="fTb-s2-T0f" id="rmr-HS-dsZ"/>
+                <outlet property="viewContent" destination="1Af-DK-w8n" id="jTU-Dd-Imf"/>
+            </connections>
+            <point key="canvasLocation" x="1281.5" y="187.5"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="WeathersamaDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="btnOWM" destination="Ot9-lg-JGx" id="rh6-zX-5Go"/>
+                <outlet property="btnWeatherList" destination="LeK-pA-4gF" id="ERM-yA-KaH"/>
+                <outlet property="pageControl" destination="Pl0-rH-BUe" id="dY9-7w-sGo"/>
+                <outlet property="pageView" destination="Xzv-If-7Zs" id="Ej7-FS-3v4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xzv-If-7Zs">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ERS-kH-sjy">
+                    <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="iyx-1S-yKa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ot9-lg-JGx">
+                                <rect key="frame" x="8" y="10" width="24" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="QZN-gN-o35"/>
+                                    <constraint firstAttribute="height" constant="25" id="XUj-aa-igB"/>
+                                </constraints>
+                                <state key="normal" image="OpenWeatherLogo"/>
+                                <connections>
+                                    <action selector="btnOWMOnTouchUp:" destination="-1" eventType="touchUpInside" id="CXK-71-Plm"/>
+                                </connections>
+                            </button>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" translatesAutoresizingMaskIntoConstraints="NO" id="Pl0-rH-BUe">
+                                <rect key="frame" x="151.5" y="3" width="71" height="37"/>
+                                <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="currentPageIndicatorTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </pageControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LeK-pA-4gF">
+                                <rect key="frame" x="330" y="8" width="37" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="NXK-eh-if7"/>
+                                    <constraint firstAttribute="width" constant="37" id="xtF-cY-acB"/>
+                                </constraints>
+                                <state key="normal" image="HamburgerMenu"/>
+                                <connections>
+                                    <action selector="btnWeatherListOnTouchUp:" destination="-1" eventType="touchUpInside" id="dbn-8h-qz0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ot9-lg-JGx" firstAttribute="top" secondItem="iyx-1S-yKa" secondAttribute="top" constant="10" id="6tj-Af-KQM"/>
+                            <constraint firstItem="Pl0-rH-BUe" firstAttribute="centerX" secondItem="iyx-1S-yKa" secondAttribute="centerX" id="6z4-m2-olL"/>
+                            <constraint firstAttribute="trailing" secondItem="LeK-pA-4gF" secondAttribute="trailing" constant="8" id="EcP-Ml-RiW"/>
+                            <constraint firstItem="Ot9-lg-JGx" firstAttribute="leading" secondItem="iyx-1S-yKa" secondAttribute="leading" constant="8" id="e6X-qP-A2f"/>
+                            <constraint firstItem="LeK-pA-4gF" firstAttribute="top" secondItem="iyx-1S-yKa" secondAttribute="top" constant="8" id="iUh-uI-Wc4"/>
+                            <constraint firstItem="Pl0-rH-BUe" firstAttribute="top" secondItem="iyx-1S-yKa" secondAttribute="top" constant="3" id="uLO-Oz-22N"/>
+                        </constraints>
+                    </view>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="3Xf-Ob-J3C"/>
+                    </constraints>
+                    <blurEffect style="regular"/>
+                </visualEffectView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Xzv-If-7Zs" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="G2m-Kh-YTR"/>
+                <constraint firstItem="ERS-kH-sjy" firstAttribute="top" secondItem="Xzv-If-7Zs" secondAttribute="bottom" id="H6J-ms-Lyr"/>
+                <constraint firstItem="ERS-kH-sjy" firstAttribute="leading" secondItem="c2F-pb-wMB" secondAttribute="leading" id="RXU-PZ-9Ck"/>
+                <constraint firstItem="Xzv-If-7Zs" firstAttribute="trailing" secondItem="c2F-pb-wMB" secondAttribute="trailing" id="SKB-79-Gtl"/>
+                <constraint firstItem="ERS-kH-sjy" firstAttribute="bottom" secondItem="c2F-pb-wMB" secondAttribute="bottom" id="U3T-Ay-Wy0"/>
+                <constraint firstItem="ERS-kH-sjy" firstAttribute="trailing" secondItem="c2F-pb-wMB" secondAttribute="trailing" id="iyB-4G-5Y8"/>
+                <constraint firstItem="Xzv-If-7Zs" firstAttribute="leading" secondItem="c2F-pb-wMB" secondAttribute="leading" id="tOy-7l-aDE"/>
+                <constraint firstAttribute="bottom" secondItem="Xzv-If-7Zs" secondAttribute="bottom" constant="44" id="zVq-a4-BQZ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="c2F-pb-wMB"/>
+            <point key="canvasLocation" x="26.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="HamburgerMenu" width="25" height="25"/>
+        <image name="OpenWeatherLogo" width="24" height="25"/>
+    </resources>
+</document>

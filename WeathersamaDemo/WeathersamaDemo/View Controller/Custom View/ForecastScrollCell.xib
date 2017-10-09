@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ForecastScrollCell" rowHeight="93" id="iM6-fQ-4D4" customClass="ForecastScrollCell" customModule="WeathersamaDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iM6-fQ-4D4" id="2hV-Sz-vzp">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="119.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="onp-Xh-SGf">
+                        <rect key="frame" x="0.0" y="118.5" width="375" height="1"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="dVP-A5-7CE"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SgA-OK-TP3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="3pC-lM-S5C"/>
+                        </constraints>
+                    </view>
+                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lXu-Yy-Nth">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="119"/>
+                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="0pZ-6g-SdM">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="119"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rrE-RH-xH3">
+                                    <rect key="frame" x="0.0" y="-1" width="375" height="119.5"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </scrollView>
+                            </subviews>
+                        </view>
+                        <blurEffect style="regular"/>
+                    </visualEffectView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="lXu-Yy-Nth" secondAttribute="bottom" id="8Ft-rG-l0B"/>
+                    <constraint firstAttribute="bottom" secondItem="onp-Xh-SGf" secondAttribute="bottom" id="Fko-F1-cpC"/>
+                    <constraint firstItem="onp-Xh-SGf" firstAttribute="leading" secondItem="2hV-Sz-vzp" secondAttribute="leading" id="NFA-ce-EUt"/>
+                    <constraint firstAttribute="trailing" secondItem="onp-Xh-SGf" secondAttribute="trailing" id="TAE-2l-rGv"/>
+                    <constraint firstAttribute="trailing" secondItem="lXu-Yy-Nth" secondAttribute="trailing" id="Xou-Ux-J4x"/>
+                    <constraint firstItem="lXu-Yy-Nth" firstAttribute="top" secondItem="2hV-Sz-vzp" secondAttribute="top" id="dI1-Vf-pr7"/>
+                    <constraint firstItem="SgA-OK-TP3" firstAttribute="top" secondItem="2hV-Sz-vzp" secondAttribute="top" id="iqK-PP-Wfk"/>
+                    <constraint firstAttribute="trailing" secondItem="SgA-OK-TP3" secondAttribute="trailing" id="kpk-Tf-g1V"/>
+                    <constraint firstItem="lXu-Yy-Nth" firstAttribute="leading" secondItem="2hV-Sz-vzp" secondAttribute="leading" id="svF-Bt-GVS"/>
+                    <constraint firstItem="SgA-OK-TP3" firstAttribute="leading" secondItem="2hV-Sz-vzp" secondAttribute="leading" id="vBk-BI-z2y"/>
+                </constraints>
+            </tableViewCellContentView>
+            <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="scrollView" destination="rrE-RH-xH3" id="qm2-va-2v3"/>
+            </connections>
+            <point key="canvasLocation" x="241.5" y="-121"/>
+        </tableViewCell>
+    </objects>
+</document>

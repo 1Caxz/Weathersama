@@ -1,0 +1,19 @@
+PODS:
+  - Alamofire (4.5.1)
+  - Weathersama (1.0):
+    - Alamofire (~> 4.5)
+
+DEPENDENCIES:
+  - Weathersama (from `~/documents/icaksama/Assets/Weathersama`)
+
+EXTERNAL SOURCES:
+  Weathersama:
+    :path: ~/documents/icaksama/Assets/Weathersama
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  Weathersama: 03d40fdda59cf4e295f04088cd5553d9df4ffd95
+
+PODFILE CHECKSUM: 8bef0ca82f88e7594cb9a96eafc8f775a42c193a
+
+COCOAPODS: 1.1.1
