@@ -10,5 +10,3 @@ How to Install in your project demo :
 2. No need to change appId or googleKey
 3. Library still on progress to upload in cocoapods repository. So, you need to change directory library on Podfile WeathersamaDemo "pod 'Weathersama', :path => '/go/to/library/directory/Weathersama'"
 3. Change Bundle indentifier & Run
-
-You can instal the WeathersamaDemo.ipa
