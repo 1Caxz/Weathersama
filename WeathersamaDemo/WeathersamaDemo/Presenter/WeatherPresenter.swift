@@ -72,6 +72,7 @@ class WeatherPresenter {
             viewController.currentDay.text = "\(appUtilities.getDayName(timeInterval: weatherModel.dt)) TODAY"
             viewController.tempMax.text = "\(Int(weatherModel.main.temperatureMax!))\u{00B0}"
             viewController.tempMin.text = "\(Int(weatherModel.main.temperatureMin!))\u{00B0}"
+            viewController.weatherType.text = weatherModel.weather[0].main
         } else {
             print("Weather model is nil.")
         }

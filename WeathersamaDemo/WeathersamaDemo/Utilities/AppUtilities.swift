@@ -79,9 +79,8 @@ class AppUtilities {
         dateFormatter.timeStyle = DateFormatter.Style.medium //Set time style
         dateFormatter.dateStyle = DateFormatter.Style.medium //Set date style
         dateFormatter.timeZone = TimeZone.current
-        let localDate = dateFormatter.string(from: date as Date)
-        
-        return dateFormatter.weekdaySymbols[0]
+        dateFormatter.dateFormat  = "EEEE"
+        return dateFormatter.string(from: date as Date)
     }
     
     internal func getHour(timeInterval: Int) -> String {
