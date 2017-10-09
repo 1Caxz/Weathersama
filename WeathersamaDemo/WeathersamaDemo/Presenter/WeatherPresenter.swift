@@ -181,13 +181,13 @@ class WeatherPresenter {
         dailyForecastCell.icon6.imageFrom(link: "http://openweathermap.org/img/w/\(dailyForecastModel.list[5].weather[0].icon!).png")
         dailyForecastCell.icon7.imageFrom(link: "http://openweathermap.org/img/w/\(dailyForecastModel.list[6].weather[0].icon!).png")
         
-        dailyForecastCell.tempMax1.text = "\(Int(dailyForecastModel.list[0].temperature.min!))"
-        dailyForecastCell.tempMax2.text = "\(Int(dailyForecastModel.list[1].temperature.min!))"
-        dailyForecastCell.tempMax3.text = "\(Int(dailyForecastModel.list[2].temperature.min!))"
-        dailyForecastCell.tempMax4.text = "\(Int(dailyForecastModel.list[3].temperature.min!))"
-        dailyForecastCell.tempMax5.text = "\(Int(dailyForecastModel.list[4].temperature.min!))"
-        dailyForecastCell.tempMax6.text = "\(Int(dailyForecastModel.list[5].temperature.min!))"
-        dailyForecastCell.tempMax7.text = "\(Int(dailyForecastModel.list[6].temperature.min!))"
+        dailyForecastCell.tempMax1.text = "\(Int(dailyForecastModel.list[0].temperature.max!))"
+        dailyForecastCell.tempMax2.text = "\(Int(dailyForecastModel.list[1].temperature.max!))"
+        dailyForecastCell.tempMax3.text = "\(Int(dailyForecastModel.list[2].temperature.max!))"
+        dailyForecastCell.tempMax4.text = "\(Int(dailyForecastModel.list[3].temperature.max!))"
+        dailyForecastCell.tempMax5.text = "\(Int(dailyForecastModel.list[4].temperature.max!))"
+        dailyForecastCell.tempMax6.text = "\(Int(dailyForecastModel.list[5].temperature.max!))"
+        dailyForecastCell.tempMax7.text = "\(Int(dailyForecastModel.list[6].temperature.max!))"
         
         dailyForecastCell.tempMin1.text = "\(Int(dailyForecastModel.list[0].temperature.min!))"
         dailyForecastCell.tempMin2.text = "\(Int(dailyForecastModel.list[1].temperature.min!))"
