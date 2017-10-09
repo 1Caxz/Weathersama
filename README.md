@@ -10,6 +10,7 @@ This is simple library with class model inside. You can make code short and fast
 <img width="250" src="https://github.com/icaksama/Weathersama/blob/master/ss3.jpeg">
 </p>
 <br>
+
 How to Install project demo :
 1. Download the project
 2. Open WeathersamaDemo.xcworkspace
