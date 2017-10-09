@@ -10,3 +10,8 @@ How to Install in your project demo :
 2. No need to change appId or googleKey
 3. Library still on progress to upload in cocoapods repository. So, you need to change directory library on Podfile WeathersamaDemo "pod 'Weathersama', :path => '/go/to/library/directory/Weathersama'"
 3. Change Bundle indentifier & Run
+
+#Note
+openweathermap.org for no daily forecast feature not in free account. So, I use sample daily forecast with this url. http://samples.openweathermap.org/data/2.5/forecast/daily?id=524901&lang=zh_cn&appid=b1b15e88fa797225412429c1c50c122a1. Data for daily forecast should be same in different country.
+
+![alt text](https://github.com/icaksama/Weathersama/blob/master/Screen%20Shot%202017-10-09%20at%209.36.32%20AM.png)
