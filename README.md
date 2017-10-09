@@ -4,6 +4,10 @@ You can find clone apple weather app in WeatersamaDemo project.
 
 This is simple library with class model inside. You can make code short and faster. This library integrated with google geocode. So, its simple to find location and send to get weather data.
 
+![alt text](https://github.com/icaksama/Weathersama/blob/master/ss1.jpeg)
+![alt text](https://github.com/icaksama/Weathersama/blob/master/ss2.jpeg)
+![alt text](https://github.com/icaksama/Weathersama/blob/master/ss3.jpeg)
+
 How to Install in your project demo :
 1. Download the project
 2. Open WeathersamaDemo.xcworkspace
