@@ -1,4 +1,4 @@
-# Weathersama
+# Weathersama (Build on Swift 4, xCode 9.0)
 Weathersama is library for access weather data on openweathermap.org.
 You can find clone apple weather app in WeatersamaDemo project.
 
