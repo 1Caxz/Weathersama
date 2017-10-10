@@ -19,7 +19,8 @@ How to Install project demo :
 3. Change Bundle indentifier & Run
 
 # Note :
-Daily forecast feature in openweathermap.org has been transfered to paid version. So, I use sample daily forecast with this url :  http://samples.openweathermap.org/data/2.5/forecast/daily?id=524901&appid=b1b15e88fa797225412429c1c50c122a1.
-Data for daily forecast should be same in different country.
+Daily forecast feature in openweathermap.org has been transfered to paid version. So, I use sample daily forecast with this url & data for daily forecast should be same in different country. http://samples.openweathermap.org/data/2.5/forecast/daily?id=524901&appid=b1b15e88fa797225412429c1c50c122a1.
+
+And also data from openweathermap.org in some countries only for big city. For example, if you looking for weather on your location with latitude & longitude, sometimes the response will be data for big city or city near your location. It's not too accurate.
 
 ![alt text](https://github.com/icaksama/Weathersama/blob/master/Screen%20Shot%202017-10-09%20at%209.36.32%20AM.png)
