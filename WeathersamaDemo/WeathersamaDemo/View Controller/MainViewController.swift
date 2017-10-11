@@ -32,19 +32,18 @@ class MainViewController: UIViewController, UIPageViewControllerDataSource, UIPa
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.isNavigationBarHidden = true
-        pageViewSetup()
-        presenter = MainPresenter(viewController: self)
 //        startVideoBackground(weatherVideo: .CLEAR_DAY)
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        print(orderedViewControllers.count)
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        presenter.setWeatherData()
+        pageViewSetup()
+        presenter = MainPresenter(viewController: self)
+//        presenter.setWeatherData()
     }
     
     @objc func viewDidBecomeActive() {
