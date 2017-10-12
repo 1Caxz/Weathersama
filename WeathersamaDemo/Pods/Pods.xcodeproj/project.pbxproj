@@ -7,45 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		019DAF0417D0386F8422F7F8E9055103 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB974DCDD51D3A0EA5C6CB4764D27B /* WeatherModel.swift */; };
-		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */; };
-		1595CFFEDFD78E0B3C8CDDC2C1CC2730 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A592AC33A24D64C37F02B079D4DE4B1D /* Foundation.framework */; };
-		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B44A27EFBB0DA84D738057B77F3413B1 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */; };
-		3770E8CE6415A9810D9BEE686F365A60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC153114BA26FD18DB5E5F6784BB6F4 /* UIKit.framework */; };
-		3D0E9A2F9A481BB8EBBF5173C55768C1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F02A739100B7422F36AE23783BE8C24 /* Alamofire.framework */; };
-		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E230A0448B394DE26E688DAC8E6201E /* Request.swift */; };
+		00E153632A414101E0A66AE23569802B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D106C1A82A55DD8DA45B4176FBE58B4 /* Result.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		044BD360F90455FF297782924B97253C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9B2E024A80A62FE090406312870D33 /* Foundation.framework */; };
+		079D990738735591330332B5F2551AE4 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8468C04E94EAB6710C7B1346CCA7394 /* NetworkReachabilityManager.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		118CF28841F934025F5BB39EF35941FA /* ForecastListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49263E6AC2FE556D6BCC87A8F2904D50 /* ForecastListModel.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		14CECE238604E1D44104E5BCD14EB2BE /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6533960DE995BE0B38703893DEA8D86 /* SessionDelegate.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1595CFFEDFD78E0B3C8CDDC2C1CC2730 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9B2E024A80A62FE090406312870D33 /* Foundation.framework */; };
+		164781197625A3149B3BDBCAA2AC8CC3 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A039965EB945871AFC634E6859657DD /* Validation.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03555F23C93AF254742F4D2D789DC411 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FEEAA39CEB72388098C03F44457E70C /* DailyForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431C8315B6069E5DE5166C16372955D8 /* DailyForecastModel.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		201B2FF60E9D6C34A2FAEE34858A15BB /* URLAddressManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A026CDDAD8E8F9D19A9BEE3E471F5A3F /* URLAddressManager.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		204944D67267632DD7CD4BEFB60AC389 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A56909B38998BBF9EB2356CB6C99C7 /* Response.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		22E9D3927406137EB0A72320D113EC89 /* UtilitiesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA93AC05CF266EB3CFCDF998370589B3 /* UtilitiesManager.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2B58B070F9D7324583D01EE906BC918C /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF05383CA259F83B409CE020BA56DD4 /* SessionManager.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		30256F99D4C45131643DF4A06B6C7F27 /* WeathersamaForGoogle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775A86A94C60764DA65D2126D4E9F78D /* WeathersamaForGoogle.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		343B30C989188B77FB1149FED753A63C /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF44261592EB5C700BB288E5930AD6B0 /* ServerTrustPolicy.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		58812AABBC0A1E7AE019752424DF31A7 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD816C82DCAB4F0BB67CBD59168524BA /* MultipartFormData.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		5A38BF458ED3E892047D855CA473AD60 /* Pods-WeathersamaDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AD391EB76BB25FED2A9A56571C1967 /* Pods-WeathersamaDemo-dummy.m */; };
-		5AF303355E12BDC95E30067928A82A2E /* Weathersama-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B313B3FCDAB59144A014DEECCE8CB08A /* Weathersama-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCBF1EED873F61C6D46CE37FA5C39D3 /* DispatchQueue+Alamofire.swift */; };
-		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */; };
-		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */; };
-		7CA876A8E0CACD84ED4B11095868F8D7 /* Weathersama.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ABB30F8586C85E6D13FAB304AC0CF4 /* Weathersama.swift */; };
-		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */; };
-		80BB390E50E4C5A513A1A3300F7BC275 /* DailyForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A458E8475C6852F2EA02B4DCD1BDE957 /* DailyForecastModel.swift */; };
-		8131C369E17105ED2F2DE242931101A1 /* DailyForecastListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F705DCE9C868AB7E4FA509364B01C5D7 /* DailyForecastListModel.swift */; };
-		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */; };
-		A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A592AC33A24D64C37F02B079D4DE4B1D /* Foundation.framework */; };
-		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A8AA5F9EDED0A0BDDE7E830BF4AEE0 /* NetworkReachabilityManager.swift */; };
-		A4C0B7EBCADDEED25A1E117D3AB04C5B /* ForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B0E65F9C2E233D636B1813C87D6554 /* ForecastModel.swift */; };
-		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C1C119BCE81C53F76CAC2BE27C38E0 /* Alamofire-dummy.m */; };
-		AAC5EA7DB1284BB3CD6238DF9D179D71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A592AC33A24D64C37F02B079D4DE4B1D /* Foundation.framework */; };
-		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */; };
-		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */; };
-		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */; };
-		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */; };
-		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F47F5C9CDB035C5AFADEBA5BF44F1C /* Response.swift */; };
-		CE373A07E164E0982DA8EA803C6A4DEB /* Weathersama.h in Headers */ = {isa = PBXBuildFile; fileRef = 5720B7E36485852532E025D10DBD4ECA /* Weathersama.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9D3E1ECE039605FDC0B70635AA6D0A0 /* UtilitiesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30833E9B8630C6C9479616BC1605EC98 /* UtilitiesManager.swift */; };
-		DB74D24199E86D4ECAC859A14E6A1DA3 /* GoogleSearchLocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5DD244C5083ED6402251D2DE0D5315 /* GoogleSearchLocationModel.swift */; };
-		DBFCA95D6003A76848CBB64CE196B61A /* ForecastListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C1011F6B21EFFFB4EEADE8D90AE0F /* ForecastListModel.swift */; };
+		5E25BCD30BDE2E7A68D1A6FAF7253AD4 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE42D1F4F7E2E81A902D6EE533EAA87 /* DispatchQueue+Alamofire.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6540CC4D369A32F6DE54AFA8D5D6FAF9 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C328BC3E0774302BA905CB248ECA8DF0 /* Alamofire-dummy.m */; };
+		675C55E920F451652FB48E45285D9CD9 /* Weathersama-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4240A0F14C752A7B884ADB87D2C7DAE4 /* Weathersama-dummy.m */; };
+		78F4229B4A746A38341474FEB9DADB25 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F630C8EBF38BD4564E3A1E662BC4FA1 /* ParameterEncoding.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		81ED105CEF9707E9D0C4A3869D76F551 /* GoogleSearchLocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F4EADAD6D9BFE51CD4A41B822242CC /* GoogleSearchLocationModel.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8217899A26636B3D3A48B55F7D0EB5E5 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 706C7AFFE37BA158C3553250F4B5FAED /* Alamofire.framework */; };
+		8F5C0849D2757FC5A7C81B81BA3813C3 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B270A40BFBEACCBE6EBB8979223CB3 /* ResponseSerialization.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		981EFF1371FCE40F1907DA262743B93E /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7833EFEE04F688D0BA90F4032C2F9D3A /* Notifications.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9B2E024A80A62FE090406312870D33 /* Foundation.framework */; };
+		A60A15DE5FF434BA2D540A175EFCEB85 /* Weathersama-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5AF9E20C3F53448319638FE9F81AAB /* Weathersama-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A868012F38A10636B7B56B09F3353B7A /* DailyForecastListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F768319C7E69ED1490F624C82E0C49A1 /* DailyForecastListModel.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AD2C576F50E67B2417C1D17FBF5E32B2 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23ABE0C31F7AF7F50499079683495F /* AFError.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C2AB1B01724BFE151A1185F6F51FBE43 /* ForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B93BD6F175FD542BB003DECC9C440F /* ForecastModel.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C5FD57751548EFFA6567AFD2EB47CD56 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F0AE3D75632115D9E06CAB4736A913 /* Request.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D5686072DEC1A0E14F8C100FCC873F73 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CE136148C129DD04D8DF14A5FAF64A /* TaskDelegate.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D74F40CDAF1F52353D31E84AE4AD43F0 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE9F65B5307D9E2AFA0F5FEA0EED3F6 /* WeatherModel.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E10698EA842875EF18A427C6B3BB72F5 /* Pods-WeathersamaDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 375FDF4DE49CC6830523504546C86EA9 /* Pods-WeathersamaDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E145813AB8E8EE2077E6846FB090E395 /* WeathersamaForGoogle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60D312ADE261783B46562877F3A0712 /* WeathersamaForGoogle.swift */; };
-		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */; };
-		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */; };
-		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */; };
-		FAB1B10A91D752BA814A1D06D38E21B0 /* URLAddressManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0938095C4E6174B2129E8919B06F44 /* URLAddressManager.swift */; };
-		FE8404E54462D973CAC40616BFB76360 /* Weathersama-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D94AD0F6A158A8BA23E0281B83EA52CC /* Weathersama-dummy.m */; };
+		E198F398404F07805E5189165F3C1E64 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C04AE5AAFC12136A9F4DD13C804EB8 /* Timeline.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E904C1631B096921722862FBCF7F421B /* Weathersama.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5CBF9094953A43C0FD327C186E2013 /* Weathersama.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EBA0781A1E2822CF7DFD56ACD394A63E /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B0EBB7DA54D1DA156DBA47A98D3E9C /* Alamofire.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F5FBC4157330815BABC52C85E384C39D /* Weathersama.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AE7C2F9C06DBD96427C6CD38EBB92D5 /* Weathersama.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,63 +72,62 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02BF4E51C0214DC6885B995029B19946 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04F47F5C9CDB035C5AFADEBA5BF44F1C /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		0FCBF1EED873F61C6D46CE37FA5C39D3 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		13A0A663B36A229C69D5274A83E93F88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		1B5DD244C5083ED6402251D2DE0D5315 /* GoogleSearchLocationModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GoogleSearchLocationModel.swift; sourceTree = "<group>"; };
-		1E230A0448B394DE26E688DAC8E6201E /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		03555F23C93AF254742F4D2D789DC411 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		1A039965EB945871AFC634E6859657DD /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		1D106C1A82A55DD8DA45B4176FBE58B4 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		1D5CBF9094953A43C0FD327C186E2013 /* Weathersama.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Weathersama.swift; path = Weathersama/Weathersama/Weathersama.swift; sourceTree = "<group>"; };
 		1F837172079DBCCE1B32D29866A7279D /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		22C1C119BCE81C53F76CAC2BE27C38E0 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		2341C66A3584E03A1F8041A3730F642C /* Weathersama.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Weathersama.xcconfig; sourceTree = "<group>"; };
-		30833E9B8630C6C9479616BC1605EC98 /* UtilitiesManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UtilitiesManager.swift; sourceTree = "<group>"; };
-		32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		21FA85981791A2535A6535A112DB8469 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		22C04AE5AAFC12136A9F4DD13C804EB8 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		373372E8512CC41AABBFAB5E468B6975 /* Pods-WeathersamaDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeathersamaDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		375FDF4DE49CC6830523504546C86EA9 /* Pods-WeathersamaDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeathersamaDemo-umbrella.h"; sourceTree = "<group>"; };
-		3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
-		4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		5720B7E36485852532E025D10DBD4ECA /* Weathersama.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Weathersama.h; sourceTree = "<group>"; };
-		5CCA95E99D620D306117A65C9E2F9776 /* Weathersama-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Weathersama-prefix.pch"; sourceTree = "<group>"; };
-		656C1011F6B21EFFFB4EEADE8D90AE0F /* ForecastListModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ForecastListModel.swift; sourceTree = "<group>"; };
-		6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		71B0E65F9C2E233D636B1813C87D6554 /* ForecastModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ForecastModel.swift; sourceTree = "<group>"; };
-		7D141D1953E5C6E67E362CE73090E48A /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		3F630C8EBF38BD4564E3A1E662BC4FA1 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		3F9B2E024A80A62FE090406312870D33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4240A0F14C752A7B884ADB87D2C7DAE4 /* Weathersama-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Weathersama-dummy.m"; sourceTree = "<group>"; };
+		431C8315B6069E5DE5166C16372955D8 /* DailyForecastModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DailyForecastModel.swift; path = "Weathersama/Weathersama/Models/Daily Forecast/DailyForecastModel.swift"; sourceTree = "<group>"; };
+		49263E6AC2FE556D6BCC87A8F2904D50 /* ForecastListModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ForecastListModel.swift; path = Weathersama/Weathersama/Models/Forecast/ForecastListModel.swift; sourceTree = "<group>"; };
+		4AE7C2F9C06DBD96427C6CD38EBB92D5 /* Weathersama.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Weathersama.h; path = Weathersama/Weathersama/Weathersama.h; sourceTree = "<group>"; };
+		5B23ABE0C31F7AF7F50499079683495F /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		69B0EBB7DA54D1DA156DBA47A98D3E9C /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		6CE42D1F4F7E2E81A902D6EE533EAA87 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		706C7AFFE37BA158C3553250F4B5FAED /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		775A86A94C60764DA65D2126D4E9F78D /* WeathersamaForGoogle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeathersamaForGoogle.swift; path = Weathersama/Weathersama/WeathersamaForGoogle.swift; sourceTree = "<group>"; };
+		77A56909B38998BBF9EB2356CB6C99C7 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		7833EFEE04F688D0BA90F4032C2F9D3A /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		78411E6C3E750E6E819FE22FEAD3E200 /* Weathersama.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Weathersama.xcconfig; sourceTree = "<group>"; };
 		80E03DA85AD09100A308B68E00F360CF /* Pods-WeathersamaDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeathersamaDemo.release.xcconfig"; sourceTree = "<group>"; };
-		87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		87C0FF2BC849ABC09DA44795DB232B6F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CE9F65B5307D9E2AFA0F5FEA0EED3F6 /* WeatherModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeatherModel.swift; path = Weathersama/Weathersama/Models/Weather/WeatherModel.swift; sourceTree = "<group>"; };
 		8E427C7D59300C2FE8CBC4818CF3EC7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EF05383CA259F83B409CE020BA56DD4 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		90F0AE3D75632115D9E06CAB4736A913 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93B26F566D72F5F9E5CBDD4DB1169E9B /* Weathersama.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Weathersama.modulemap; sourceTree = "<group>"; };
 		94FC121F16543008A72C69FDDD9F70DB /* Pods_WeathersamaDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WeathersamaDemo.framework; path = "Pods-WeathersamaDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F02A739100B7422F36AE23783BE8C24 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		965EA1A389FC12CA69A2A1FBB68C5636 /* Weathersama.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Weathersama.modulemap; sourceTree = "<group>"; };
+		A026CDDAD8E8F9D19A9BEE3E471F5A3F /* URLAddressManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLAddressManager.swift; path = Weathersama/Weathersama/Managers/URLAddressManager.swift; sourceTree = "<group>"; };
 		A34C911765B66CDF4A61399C894D4ED6 /* Pods-WeathersamaDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeathersamaDemo-resources.sh"; sourceTree = "<group>"; };
-		A458E8475C6852F2EA02B4DCD1BDE957 /* DailyForecastModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DailyForecastModel.swift; sourceTree = "<group>"; };
-		A592AC33A24D64C37F02B079D4DE4B1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		A84FF08CE5B3904346147D70645244EA /* Pods-WeathersamaDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeathersamaDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		B1ABB30F8586C85E6D13FAB304AC0CF4 /* Weathersama.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Weathersama.swift; sourceTree = "<group>"; };
-		B313B3FCDAB59144A014DEECCE8CB08A /* Weathersama-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Weathersama-umbrella.h"; sourceTree = "<group>"; };
-		B44A27EFBB0DA84D738057B77F3413B1 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		ACFC8641E81B0EEFDCAEA70752B18639 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		B3CE136148C129DD04D8DF14A5FAF64A /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		B4A390A9FFDD58CB4D4038A17E8BC3CC /* Pods-WeathersamaDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WeathersamaDemo.modulemap"; sourceTree = "<group>"; };
-		BCCA9CA7D9C1A2047BB93336C5708DFD /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		BDC153114BA26FD18DB5E5F6784BB6F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B8468C04E94EAB6710C7B1346CCA7394 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		BA93AC05CF266EB3CFCDF998370589B3 /* UtilitiesManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UtilitiesManager.swift; path = Weathersama/Weathersama/Managers/UtilitiesManager.swift; sourceTree = "<group>"; };
 		C0B854AC42AF08B24DEC0778243B431D /* Pods-WeathersamaDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeathersamaDemo-frameworks.sh"; sourceTree = "<group>"; };
-		C60D312ADE261783B46562877F3A0712 /* WeathersamaForGoogle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WeathersamaForGoogle.swift; sourceTree = "<group>"; };
+		C2B93BD6F175FD542BB003DECC9C440F /* ForecastModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ForecastModel.swift; path = Weathersama/Weathersama/Models/Forecast/ForecastModel.swift; sourceTree = "<group>"; };
+		C328BC3E0774302BA905CB248ECA8DF0 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		C6533960DE995BE0B38703893DEA8D86 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		C7AC1A8376CFDC01793A76E67FCA39D8 /* Weathersama.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Weathersama.framework; path = Weathersama.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD816C82DCAB4F0BB67CBD59168524BA /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		D6AD391EB76BB25FED2A9A56571C1967 /* Pods-WeathersamaDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeathersamaDemo-dummy.m"; sourceTree = "<group>"; };
-		D94AD0F6A158A8BA23E0281B83EA52CC /* Weathersama-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Weathersama-dummy.m"; sourceTree = "<group>"; };
-		DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		E5A8AA5F9EDED0A0BDDE7E830BF4AEE0 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		E6F34CCF86067ED508C12C676E298C69 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		E8FB974DCDD51D3A0EA5C6CB4764D27B /* WeatherModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		D8B270A40BFBEACCBE6EBB8979223CB3 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		E0F4EADAD6D9BFE51CD4A41B822242CC /* GoogleSearchLocationModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleSearchLocationModel.swift; path = Weathersama/Weathersama/Models/GoogleSearchLocationModel.swift; sourceTree = "<group>"; };
+		EA5AF9E20C3F53448319638FE9F81AAB /* Weathersama-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Weathersama-umbrella.h"; sourceTree = "<group>"; };
 		F20BF914970B9BAA02488BE544322FA1 /* Pods-WeathersamaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeathersamaDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		F705DCE9C868AB7E4FA509364B01C5D7 /* DailyForecastListModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DailyForecastListModel.swift; sourceTree = "<group>"; };
-		FB0938095C4E6174B2129E8919B06F44 /* URLAddressManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = URLAddressManager.swift; sourceTree = "<group>"; };
+		F768319C7E69ED1490F624C82E0C49A1 /* DailyForecastListModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DailyForecastListModel.swift; path = "Weathersama/Weathersama/Models/Daily Forecast/DailyForecastListModel.swift"; sourceTree = "<group>"; };
+		F8B7030B9752F51AE91E11D541BE764D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC77C82727340FD8775259FCB4F370E /* Weathersama-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Weathersama-prefix.pch"; sourceTree = "<group>"; };
+		FF3C3BE8203B078041698155C43B5066 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		FF44261592EB5C700BB288E5930AD6B0 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +139,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6CABB0CF1F9599B7282EA9E655232A69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8217899A26636B3D3A48B55F7D0EB5E5 /* Alamofire.framework in Frameworks */,
+				044BD360F90455FF297782924B97253C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -149,28 +156,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B85D1B9347A3F2FFEEB84B376AEA87EB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D0E9A2F9A481BB8EBBF5173C55768C1 /* Alamofire.framework in Frameworks */,
-				AAC5EA7DB1284BB3CD6238DF9D179D71 /* Foundation.framework in Frameworks */,
-				3770E8CE6415A9810D9BEE686F365A60 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0263BE57BAA146B1A3FD24C11493E196 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				A592AC33A24D64C37F02B079D4DE4B1D /* Foundation.framework */,
-				BDC153114BA26FD18DB5E5F6784BB6F4 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		0510A2D2D3139A44D3590E2482A5DD4A /* Pods-WeathersamaDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,87 +177,34 @@
 			path = "Target Support Files/Pods-WeathersamaDemo";
 			sourceTree = "<group>";
 		};
-		1E571513F1DA6C2A85640FFA5C7CF5AC /* Development Pods */ = {
+		242F300AB22C2517968640F933F4ECDE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4972508B3DB7EA0FEABDDAB07BC16FCD /* Weathersama */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		200D10EB20F0397D47F022B50CF0433F /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */,
-				DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */,
-				0FCBF1EED873F61C6D46CE37FA5C39D3 /* DispatchQueue+Alamofire.swift */,
-				155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */,
-				E5A8AA5F9EDED0A0BDDE7E830BF4AEE0 /* NetworkReachabilityManager.swift */,
-				66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */,
-				6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */,
-				1E230A0448B394DE26E688DAC8E6201E /* Request.swift */,
-				04F47F5C9CDB035C5AFADEBA5BF44F1C /* Response.swift */,
-				E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */,
-				3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */,
-				32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */,
-				195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */,
-				46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */,
-				A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */,
-				87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */,
-				B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */,
-				55F14F994FE7AB51F028BFE66CEF3106 /* Support Files */,
-			);
-			name = Alamofire;
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		35F128EB69B6F7FB7DA93BBF6C130FAE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				200D10EB20F0397D47F022B50CF0433F /* Alamofire */,
+				E7D9F30A4DD7B67BA4A59FA62A2B6C0F /* Alamofire */,
+				93344A39A9013C65E06754BE98422420 /* Weathersama */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		4972508B3DB7EA0FEABDDAB07BC16FCD /* Weathersama */ = {
+		361FD9EED25EE4DD68043C97588377FD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E5FC03D60DD24CB5F6B7A89F95C323E4 /* Support Files */,
-				ABCCFD692F045BA106C85BD84D52487C /* Weathersama */,
-			);
-			name = Weathersama;
-			path = /Users/pistarlabsfordyned/documents/icaksama/GIT/Weathersama/Weathersama;
-			sourceTree = "<absolute>";
-		};
-		5240CDA04BBC6A9A02F45F2BC3B186B8 /* Daily Forecast */ = {
-			isa = PBXGroup;
-			children = (
-				F705DCE9C868AB7E4FA509364B01C5D7 /* DailyForecastListModel.swift */,
-				A458E8475C6852F2EA02B4DCD1BDE957 /* DailyForecastModel.swift */,
-			);
-			name = "Daily Forecast";
-			path = "Daily Forecast";
-			sourceTree = "<group>";
-		};
-		55F14F994FE7AB51F028BFE66CEF3106 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7D141D1953E5C6E67E362CE73090E48A /* Alamofire.modulemap */,
-				E6F34CCF86067ED508C12C676E298C69 /* Alamofire.xcconfig */,
-				22C1C119BCE81C53F76CAC2BE27C38E0 /* Alamofire-dummy.m */,
-				BCCA9CA7D9C1A2047BB93336C5708DFD /* Alamofire-prefix.pch */,
-				B44A27EFBB0DA84D738057B77F3413B1 /* Alamofire-umbrella.h */,
-				13A0A663B36A229C69D5274A83E93F88 /* Info.plist */,
+				87C0FF2BC849ABC09DA44795DB232B6F /* Info.plist */,
+				965EA1A389FC12CA69A2A1FBB68C5636 /* Weathersama.modulemap */,
+				78411E6C3E750E6E819FE22FEAD3E200 /* Weathersama.xcconfig */,
+				4240A0F14C752A7B884ADB87D2C7DAE4 /* Weathersama-dummy.m */,
+				FBC77C82727340FD8775259FCB4F370E /* Weathersama-prefix.pch */,
+				EA5AF9E20C3F53448319638FE9F81AAB /* Weathersama-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
+			path = "../Target Support Files/Weathersama";
 			sourceTree = "<group>";
 		};
-		7B05826141F5DEB7AF13094100054778 /* Frameworks */ = {
+		59B91F212518421F271EBA85D5530651 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9F02A739100B7422F36AE23783BE8C24 /* Alamofire.framework */,
-				0263BE57BAA146B1A3FD24C11493E196 /* iOS */,
+				706C7AFFE37BA158C3553250F4B5FAED /* Alamofire.framework */,
+				7EB15E2C7EC8DD0E4C409FA3E5AC30A1 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -278,12 +213,19 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				1E571513F1DA6C2A85640FFA5C7CF5AC /* Development Pods */,
-				7B05826141F5DEB7AF13094100054778 /* Frameworks */,
-				35F128EB69B6F7FB7DA93BBF6C130FAE /* Pods */,
+				59B91F212518421F271EBA85D5530651 /* Frameworks */,
+				242F300AB22C2517968640F933F4ECDE /* Pods */,
 				8BCF2D0CEA26541715042B5CC2F25BC5 /* Products */,
 				E25DAC680260520DA313F263BB1E1788 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7EB15E2C7EC8DD0E4C409FA3E5AC30A1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3F9B2E024A80A62FE090406312870D33 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		8BCF2D0CEA26541715042B5CC2F25BC5 /* Products */ = {
@@ -296,39 +238,38 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ABCCFD692F045BA106C85BD84D52487C /* Weathersama */ = {
+		8E7D87C83F805C65CCDA1F42F5633A1D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5720B7E36485852532E025D10DBD4ECA /* Weathersama.h */,
-				B1ABB30F8586C85E6D13FAB304AC0CF4 /* Weathersama.swift */,
-				C60D312ADE261783B46562877F3A0712 /* WeathersamaForGoogle.swift */,
-				F394DA6F156E568BC5B71D07F4C432E8 /* Managers */,
-				D3384E77B313D8B0DD886E86DE725576 /* Models */,
+				ACFC8641E81B0EEFDCAEA70752B18639 /* Alamofire.modulemap */,
+				FF3C3BE8203B078041698155C43B5066 /* Alamofire.xcconfig */,
+				C328BC3E0774302BA905CB248ECA8DF0 /* Alamofire-dummy.m */,
+				21FA85981791A2535A6535A112DB8469 /* Alamofire-prefix.pch */,
+				03555F23C93AF254742F4D2D789DC411 /* Alamofire-umbrella.h */,
+				F8B7030B9752F51AE91E11D541BE764D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		93344A39A9013C65E06754BE98422420 /* Weathersama */ = {
+			isa = PBXGroup;
+			children = (
+				F768319C7E69ED1490F624C82E0C49A1 /* DailyForecastListModel.swift */,
+				431C8315B6069E5DE5166C16372955D8 /* DailyForecastModel.swift */,
+				49263E6AC2FE556D6BCC87A8F2904D50 /* ForecastListModel.swift */,
+				C2B93BD6F175FD542BB003DECC9C440F /* ForecastModel.swift */,
+				E0F4EADAD6D9BFE51CD4A41B822242CC /* GoogleSearchLocationModel.swift */,
+				A026CDDAD8E8F9D19A9BEE3E471F5A3F /* URLAddressManager.swift */,
+				BA93AC05CF266EB3CFCDF998370589B3 /* UtilitiesManager.swift */,
+				8CE9F65B5307D9E2AFA0F5FEA0EED3F6 /* WeatherModel.swift */,
+				4AE7C2F9C06DBD96427C6CD38EBB92D5 /* Weathersama.h */,
+				1D5CBF9094953A43C0FD327C186E2013 /* Weathersama.swift */,
+				775A86A94C60764DA65D2126D4E9F78D /* WeathersamaForGoogle.swift */,
+				361FD9EED25EE4DD68043C97588377FD /* Support Files */,
 			);
 			name = Weathersama;
 			path = Weathersama;
-			sourceTree = "<group>";
-		};
-		B4C0C75021F10E83309223FD632EBE4B /* Forecast */ = {
-			isa = PBXGroup;
-			children = (
-				656C1011F6B21EFFFB4EEADE8D90AE0F /* ForecastListModel.swift */,
-				71B0E65F9C2E233D636B1813C87D6554 /* ForecastModel.swift */,
-			);
-			name = Forecast;
-			path = Forecast;
-			sourceTree = "<group>";
-		};
-		D3384E77B313D8B0DD886E86DE725576 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				1B5DD244C5083ED6402251D2DE0D5315 /* GoogleSearchLocationModel.swift */,
-				5240CDA04BBC6A9A02F45F2BC3B186B8 /* Daily Forecast */,
-				B4C0C75021F10E83309223FD632EBE4B /* Forecast */,
-				F0877530DB34486AAB8ED2933A92B310 /* Weather */,
-			);
-			name = Models;
-			path = Models;
 			sourceTree = "<group>";
 		};
 		E25DAC680260520DA313F263BB1E1788 /* Targets Support Files */ = {
@@ -339,48 +280,41 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E5FC03D60DD24CB5F6B7A89F95C323E4 /* Support Files */ = {
+		E7D9F30A4DD7B67BA4A59FA62A2B6C0F /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				02BF4E51C0214DC6885B995029B19946 /* Info.plist */,
-				93B26F566D72F5F9E5CBDD4DB1169E9B /* Weathersama.modulemap */,
-				2341C66A3584E03A1F8041A3730F642C /* Weathersama.xcconfig */,
-				D94AD0F6A158A8BA23E0281B83EA52CC /* Weathersama-dummy.m */,
-				5CCA95E99D620D306117A65C9E2F9776 /* Weathersama-prefix.pch */,
-				B313B3FCDAB59144A014DEECCE8CB08A /* Weathersama-umbrella.h */,
+				5B23ABE0C31F7AF7F50499079683495F /* AFError.swift */,
+				69B0EBB7DA54D1DA156DBA47A98D3E9C /* Alamofire.swift */,
+				6CE42D1F4F7E2E81A902D6EE533EAA87 /* DispatchQueue+Alamofire.swift */,
+				CD816C82DCAB4F0BB67CBD59168524BA /* MultipartFormData.swift */,
+				B8468C04E94EAB6710C7B1346CCA7394 /* NetworkReachabilityManager.swift */,
+				7833EFEE04F688D0BA90F4032C2F9D3A /* Notifications.swift */,
+				3F630C8EBF38BD4564E3A1E662BC4FA1 /* ParameterEncoding.swift */,
+				90F0AE3D75632115D9E06CAB4736A913 /* Request.swift */,
+				77A56909B38998BBF9EB2356CB6C99C7 /* Response.swift */,
+				D8B270A40BFBEACCBE6EBB8979223CB3 /* ResponseSerialization.swift */,
+				1D106C1A82A55DD8DA45B4176FBE58B4 /* Result.swift */,
+				FF44261592EB5C700BB288E5930AD6B0 /* ServerTrustPolicy.swift */,
+				C6533960DE995BE0B38703893DEA8D86 /* SessionDelegate.swift */,
+				8EF05383CA259F83B409CE020BA56DD4 /* SessionManager.swift */,
+				B3CE136148C129DD04D8DF14A5FAF64A /* TaskDelegate.swift */,
+				22C04AE5AAFC12136A9F4DD13C804EB8 /* Timeline.swift */,
+				1A039965EB945871AFC634E6859657DD /* Validation.swift */,
+				8E7D87C83F805C65CCDA1F42F5633A1D /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../../../../../Documents/icaksama/GIT/Weathersama/WeathersamaDemo/Pods/Target Support Files/Weathersama";
-			sourceTree = "<group>";
-		};
-		F0877530DB34486AAB8ED2933A92B310 /* Weather */ = {
-			isa = PBXGroup;
-			children = (
-				E8FB974DCDD51D3A0EA5C6CB4764D27B /* WeatherModel.swift */,
-			);
-			name = Weather;
-			path = Weather;
-			sourceTree = "<group>";
-		};
-		F394DA6F156E568BC5B71D07F4C432E8 /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				FB0938095C4E6174B2129E8919B06F44 /* URLAddressManager.swift */,
-				30833E9B8630C6C9479616BC1605EC98 /* UtilitiesManager.swift */,
-			);
-			name = Managers;
-			path = Managers;
+			name = Alamofire;
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4C24797DC9B211A14B1266D76818A3AE /* Headers */ = {
+		407587DBC8ACAE4CCD627D93E1C5D053 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AF303355E12BDC95E30067928A82A2E /* Weathersama-umbrella.h in Headers */,
-				CE373A07E164E0982DA8EA803C6A4DEB /* Weathersama.h in Headers */,
+				A60A15DE5FF434BA2D540A175EFCEB85 /* Weathersama-umbrella.h in Headers */,
+				F5FBC4157330815BABC52C85E384C39D /* Weathersama.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,9 +341,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1137EE74D9DCDAC9E42A97ACBC550E5B /* Build configuration list for PBXNativeTarget "Weathersama" */;
 			buildPhases = (
-				16565FC7818115ECE01B7ACBA75E56EF /* Sources */,
-				B85D1B9347A3F2FFEEB84B376AEA87EB /* Frameworks */,
-				4C24797DC9B211A14B1266D76818A3AE /* Headers */,
+				545992D89E77491A0C1A8B88A7C9EF74 /* Sources */,
+				6CABB0CF1F9599B7282EA9E655232A69 /* Frameworks */,
+				407587DBC8ACAE4CCD627D93E1C5D053 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -425,7 +359,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */;
 			buildPhases = (
-				32B9974868188C4803318E36329C87FE /* Sources */,
+				47AA244DE0C8B2C0F0A585D845356E59 /* Sources */,
 				99195E4207764744AEC07ECCBCD550EB /* Frameworks */,
 				B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */,
 			);
@@ -486,46 +420,46 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		16565FC7818115ECE01B7ACBA75E56EF /* Sources */ = {
+		47AA244DE0C8B2C0F0A585D845356E59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8131C369E17105ED2F2DE242931101A1 /* DailyForecastListModel.swift in Sources */,
-				80BB390E50E4C5A513A1A3300F7BC275 /* DailyForecastModel.swift in Sources */,
-				DBFCA95D6003A76848CBB64CE196B61A /* ForecastListModel.swift in Sources */,
-				A4C0B7EBCADDEED25A1E117D3AB04C5B /* ForecastModel.swift in Sources */,
-				DB74D24199E86D4ECAC859A14E6A1DA3 /* GoogleSearchLocationModel.swift in Sources */,
-				FAB1B10A91D752BA814A1D06D38E21B0 /* URLAddressManager.swift in Sources */,
-				D9D3E1ECE039605FDC0B70635AA6D0A0 /* UtilitiesManager.swift in Sources */,
-				019DAF0417D0386F8422F7F8E9055103 /* WeatherModel.swift in Sources */,
-				FE8404E54462D973CAC40616BFB76360 /* Weathersama-dummy.m in Sources */,
-				7CA876A8E0CACD84ED4B11095868F8D7 /* Weathersama.swift in Sources */,
-				E145813AB8E8EE2077E6846FB090E395 /* WeathersamaForGoogle.swift in Sources */,
+				AD2C576F50E67B2417C1D17FBF5E32B2 /* AFError.swift in Sources */,
+				6540CC4D369A32F6DE54AFA8D5D6FAF9 /* Alamofire-dummy.m in Sources */,
+				EBA0781A1E2822CF7DFD56ACD394A63E /* Alamofire.swift in Sources */,
+				5E25BCD30BDE2E7A68D1A6FAF7253AD4 /* DispatchQueue+Alamofire.swift in Sources */,
+				58812AABBC0A1E7AE019752424DF31A7 /* MultipartFormData.swift in Sources */,
+				079D990738735591330332B5F2551AE4 /* NetworkReachabilityManager.swift in Sources */,
+				981EFF1371FCE40F1907DA262743B93E /* Notifications.swift in Sources */,
+				78F4229B4A746A38341474FEB9DADB25 /* ParameterEncoding.swift in Sources */,
+				C5FD57751548EFFA6567AFD2EB47CD56 /* Request.swift in Sources */,
+				204944D67267632DD7CD4BEFB60AC389 /* Response.swift in Sources */,
+				8F5C0849D2757FC5A7C81B81BA3813C3 /* ResponseSerialization.swift in Sources */,
+				00E153632A414101E0A66AE23569802B /* Result.swift in Sources */,
+				343B30C989188B77FB1149FED753A63C /* ServerTrustPolicy.swift in Sources */,
+				14CECE238604E1D44104E5BCD14EB2BE /* SessionDelegate.swift in Sources */,
+				2B58B070F9D7324583D01EE906BC918C /* SessionManager.swift in Sources */,
+				D5686072DEC1A0E14F8C100FCC873F73 /* TaskDelegate.swift in Sources */,
+				E198F398404F07805E5189165F3C1E64 /* Timeline.swift in Sources */,
+				164781197625A3149B3BDBCAA2AC8CC3 /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		32B9974868188C4803318E36329C87FE /* Sources */ = {
+		545992D89E77491A0C1A8B88A7C9EF74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */,
-				A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */,
-				F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */,
-				61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */,
-				B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */,
-				A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */,
-				EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */,
-				BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */,
-				5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */,
-				CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */,
-				F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */,
-				7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */,
-				62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */,
-				7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */,
-				AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */,
-				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
-				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
-				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
+				A868012F38A10636B7B56B09F3353B7A /* DailyForecastListModel.swift in Sources */,
+				1FEEAA39CEB72388098C03F44457E70C /* DailyForecastModel.swift in Sources */,
+				118CF28841F934025F5BB39EF35941FA /* ForecastListModel.swift in Sources */,
+				C2AB1B01724BFE151A1185F6F51FBE43 /* ForecastModel.swift in Sources */,
+				81ED105CEF9707E9D0C4A3869D76F551 /* GoogleSearchLocationModel.swift in Sources */,
+				201B2FF60E9D6C34A2FAEE34858A15BB /* URLAddressManager.swift in Sources */,
+				22E9D3927406137EB0A72320D113EC89 /* UtilitiesManager.swift in Sources */,
+				D74F40CDAF1F52353D31E84AE4AD43F0 /* WeatherModel.swift in Sources */,
+				675C55E920F451652FB48E45285D9CD9 /* Weathersama-dummy.m in Sources */,
+				E904C1631B096921722862FBCF7F421B /* Weathersama.swift in Sources */,
+				30256F99D4C45131643DF4A06B6C7F27 /* WeathersamaForGoogle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,7 +497,7 @@
 /* Begin XCBuildConfiguration section */
 		03641D3582D354D7F79C5FDDDFC21B15 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6F34CCF86067ED508C12C676E298C69 /* Alamofire.xcconfig */;
+			baseConfigurationReference = FF3C3BE8203B078041698155C43B5066 /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -632,7 +566,7 @@
 		};
 		17E5E21E0D99037C4E8BFCFBF9094306 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2341C66A3584E03A1F8041A3730F642C /* Weathersama.xcconfig */;
+			baseConfigurationReference = 78411E6C3E750E6E819FE22FEAD3E200 /* Weathersama.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -709,7 +643,7 @@
 		};
 		958E5C3A096228CB51DDFF885388604E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2341C66A3584E03A1F8041A3730F642C /* Weathersama.xcconfig */;
+			baseConfigurationReference = 78411E6C3E750E6E819FE22FEAD3E200 /* Weathersama.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -781,7 +715,7 @@
 		};
 		CC799811C048197AEAD3E465E1AFFDF3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6F34CCF86067ED508C12C676E298C69 /* Alamofire.xcconfig */;
+			baseConfigurationReference = FF3C3BE8203B078041698155C43B5066 /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

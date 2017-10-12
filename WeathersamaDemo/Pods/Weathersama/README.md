@@ -15,8 +15,8 @@ How to Install project demo :
 1. Download the project
 2. Open WeathersamaDemo.xcworkspace
 2. No need to change appId or googleKey
-3. Library already uploaded on CocoaPods repository with version 1.1.1
-3. Just change Bundle indentifier & Run
+3. Library still on progress to upload in cocoapods repository. So, you need to change directory library on Podfile WeathersamaDemo "pod 'Weathersama', :path => '/go/to/library/directory/Weathersama'"
+3. Change Bundle indentifier & Run
 
 # Note :
 Daily forecast feature in openweathermap.org has been transfered to paid version. So, I use sample daily forecast with this url & data for daily forecast should be same in different country. http://samples.openweathermap.org/data/2.5/forecast/daily?id=524901&appid=b1b15e88fa797225412429c1c50c122a1.
