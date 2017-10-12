@@ -1,17 +1,19 @@
 Pod::Spec.new do |s|
   s.name = 'Weathersama'
-  s.version = '1.0'
-  s.license = 'MIT'
+  s.version = '1.1.1'
+  s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.summary = 'Elegant library for access openweathermap.org with google geocode and class mode inside.'
   s.homepage = 'https://github.com/icaksama/Weathersama'
   s.social_media_url = 'http://twitter.com/icaksama'
   s.authors = { 'icaksama' => 'icaksama@gmail.org' }
   s.source = { :git => 'https://github.com/icaksama/Weathersama.git', :tag => s.version }
+  s.framework = "UIKit"
+  s.dependency "Alamofire", "~> 4.5"
 
   s.ios.deployment_target = '9.0'
   s.osx.deployment_target = '10.10'
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
 
-  s.source_files = 'Source/*.swift'
+  s.source_files = 'Weathersama/Weathersama/**/*.{swift,h}'
 end
