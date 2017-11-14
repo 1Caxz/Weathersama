@@ -74,7 +74,7 @@ class URLAddressManager {
     
     internal func getCWCoordURL(coordinate: CLLocationCoordinate2D, requestType: REQUEST_TYPE) -> String {
         if requestType == .dailyForecast {
-            return "http://samples.openweathermap.org/data/2.5/forecast/daily?id=524901&appid=b1b15e88fa797225412429c1c50c122a1"
+            return "http://api.openweathermap.org/data/2.5/forecast/daily?lat=\(coordinate.latitude)&lon=\(coordinate.longitude)\(TEMPERATURE)\(DATA_RESPONSE)\(LANGUAGE)&appid=\(self.APPID)"
         } else {
             return "http://api.openweathermap.org/data/2.5/\(requestType.rawValue)?lat=\(coordinate.latitude)&lon=\(coordinate.longitude)\(TEMPERATURE)\(DATA_RESPONSE)\(LANGUAGE)&appid=\(self.APPID)"
         }
