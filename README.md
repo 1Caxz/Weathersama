@@ -34,10 +34,10 @@ import Weathersama
 ```
 
 # Weathersama with Delegete
-You can get data response from openweathermap.org with delegete.
+Add <b>WeathersamaDelegete</b> to your class. You can get data response from openweathermap.org with delegete. Actually, this is the optional technique to handle some conditional on your programs but for other technique, you can use <b>Weathersama with Completion Method</b> for more simple programs.
 ```Swift
-class ViewController: UIViewController, CardViewListDelegete {
-    var weatherSama: Weathersama!
+class ViewController: UIViewController, WeathersamaDelegete {
+    fileprivate var weatherSama: Weathersama!
     override func viewDidLoad() {
         super.viewDidLoad()
         weatherSama = Weathersama(appId: "YOUR_APP_ID", temperature: TEMPERATURE_TYPES.Celcius, language: LANGUAGES.French, dataResponse: DATA_RESPONSE.JSON)
