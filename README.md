@@ -34,7 +34,7 @@ import Weathersama
 ```
 
 # Weathersama with Delegete
-You can get date response from openweathermap.org with delegete.
+You can get data response from openweathermap.org with delegete.
 ```Swift
 class ViewController: UIViewController, CardViewListDelegete {
     var weatherSama: Weathersama!
@@ -92,6 +92,30 @@ class ViewController: UIViewController {
     }
 }
 ```
+
+# Weathersama for Google
+Weathersama library integrated with google geocode. So, you can be looking for the location more accurate.
+```Swift
+fileprivate var weathersamaForGoogle: WeathersamaForGoogle!
+fileprivate var data = [String]()
+fileprivate var placeId = [String]()
+override func viewDidLoad() {
+    super.viewDidLoad()
+
+    weathersamaForGoogle = WeathersamaForGoogle(apiKey: "YOUR_GOOGLE_KEY")
+    weathersamaForGoogle.lookingForLocationBy(input: searchBar.text!) { (isSuccess, classModel) in
+        if isSuccess {
+            for prediction in classModel.predictions {
+                self.data.append(prediction.description)
+                self.placeId.append(prediction.placeId)
+            }
+        } else {
+            print("Cannot get data fromm google")
+        }
+    }
+}
+```
+
 
 # List of Request Types
 ```Swift
