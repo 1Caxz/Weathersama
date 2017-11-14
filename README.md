@@ -127,7 +127,7 @@ public enum REQUEST_TYPE: String {
 ```
 
 # List of Class Model
-Every request type have different class model. So, you need to casting the classModel from response such as request type.
+Every request type have different class model. So, you need to casting the classModel from response such as request type.<br>
 <b>Class model for request type Weather</b>
 ```Swift
 let weatherModel: WeatherModel = WeatherModel()
