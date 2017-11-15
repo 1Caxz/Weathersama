@@ -3,13 +3,10 @@ Weathersama is library for access weather data on openweathermap.org.
 You can find clone apple weather app in WeatersamaDemo project.
 
 This is simple library with class model inside. You can make code short and faster. This library integrated with google geocode. So, its simple to find location and send that to get weather data.
-<br><br>
+
 <p align="center">
-<img width="250" src="https://github.com/icaksama/Weathersama/blob/master/ss1.jpeg?raw=true">&nbsp;&nbsp;&nbsp;
-<img width="250" src="https://github.com/icaksama/Weathersama/blob/master/ss2.jpeg?raw=true">&nbsp;&nbsp;&nbsp;
-<img width="250" src="https://github.com/icaksama/Weathersama/blob/master/ss3.jpeg?raw=true">
+<img width="250" src="https://github.com/icaksama/Weathersama/blob/master/WeathersamaDemo.gif?raw=true">
 </p>
-<br>
 
 # Add to Podfile
 Add Weathersama library to your Podfile and install
@@ -42,7 +39,7 @@ class ViewController: UIViewController, WeathersamaDelegete {
         super.viewDidLoad()
         weatherSama = Weathersama(appId: "YOUR_APP_ID", temperature: TEMPERATURE_TYPES.Celcius, language: LANGUAGES.French, dataResponse: DATA_RESPONSE.JSON)
         weatherSama.delegete = self
-        
+
         // You can set nil if use Weathersama library with delegete
         weatherSama.weatherByCityId(cityId: 12345, requestType: .dailyForecast, completion: nil)
     }
@@ -79,7 +76,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         weatherSama = Weathersama(appId: "YOUR_APP_ID", temperature: TEMPERATURE_TYPES.Celcius, language: LANGUAGES.French, dataResponse: DATA_RESPONSE.JSON)
-        
+
         weatherSama.weatherByCityId(cityId: 12345, requestType: .dailyForecast) { (isSuccess, description, classModel) -> () in
             if isSuccess {
                 // you can user response json or class model
@@ -205,5 +202,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
