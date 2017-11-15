@@ -5,7 +5,7 @@ You can find clone apple weather app in WeatersamaDemo project.
 This is simple library with class model inside. You can make code short and faster. This library integrated with google geocode. So, its simple to find location and send that to get weather data.
 
 <p align="center">
-<img width="250" src="https://github.com/icaksama/Weathersama/blob/master/WeathersamaDemo.gif?raw=true">
+<img width="350" src="https://github.com/icaksama/Weathersama/blob/master/WeathersamaDemo.gif?raw=true">
 </p>
 
 # Add to Podfile
