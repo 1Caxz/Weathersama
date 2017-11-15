@@ -11,7 +11,7 @@ This is simple library with class model inside. You can make code short and fast
 # Add to Podfile
 Add Weathersama library to your Podfile and install
 ```Swift
-pod 'Weathersama', '~> 1.1.2'
+pod 'Weathersama', '~> 1.1.3'
 ```
 
 # Install Demo Project

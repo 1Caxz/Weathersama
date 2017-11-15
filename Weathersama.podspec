@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'Weathersama'
-  s.version = '1.1.2'
+  s.version = '1.1.3'
   s.license = 'MIT'
   s.summary = 'Elegant library for access openweathermap.org with google geocode and class mode inside.'
   s.homepage = 'https://github.com/icaksama/Weathersama'
