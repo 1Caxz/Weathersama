@@ -1,4 +1,11 @@
-# Weathersama (Build on Swift 4, xCode 9.0)
+# Weathersama
+[![Creator](https://img.shields.io/badge/creator-icaksama-green.svg)](https://www.linkedin.com/in/icaksama/)
+[![GitHub license](https://img.shields.io/github/license/icaksama/Weathersama.svg)](https://raw.githubusercontent.com/icaksama/Weathersama/master/LICENSE)
+[![Code Size](https://img.shields.io/github/languages/code-size/icaksama/Weathersama.svg)](https://cocoapods.org/pods/Weathersama)
+[![Pod Version](https://img.shields.io/cocoapods/v/Weathersama.svg)](https://cocoapods.org/pods/Weathersama)
+[![Platform](https://img.shields.io/cocoapods/p/Weathersama.svg)](https://cocoapods.org/pods/Weathersama)
+[![Download Total](https://img.shields.io/cocoapods/dt/Weathersama.svg)](https://cocoapods.org/pods/Weathersama)
+<br>
 Weathersama is library for access weather data on openweathermap.org.
 You can find clone apple weather app in WeatersamaDemo project.
 
