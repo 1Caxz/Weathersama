@@ -1,5 +1,6 @@
 # Weathersama
 [![Creator](https://img.shields.io/badge/creator-icaksama-green.svg)](https://www.linkedin.com/in/icaksama/)
+[![Travis](https://img.shields.io/travis/icaksama/Weathersama.svg)](https://travis-ci.org/icaksama/Weathersama)
 [![GitHub license](https://img.shields.io/github/license/icaksama/Weathersama.svg)](https://raw.githubusercontent.com/icaksama/Weathersama/master/LICENSE)
 [![Code Size](https://img.shields.io/github/languages/code-size/icaksama/Weathersama.svg)](https://cocoapods.org/pods/Weathersama)
 [![Pod Version](https://img.shields.io/cocoapods/v/Weathersama.svg)](https://cocoapods.org/pods/Weathersama)
